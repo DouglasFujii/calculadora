@@ -1,0 +1,35 @@
+#result {
+    text-align: right;
+    font-size: 40px;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+}
+
+#container{
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: gray;
+}
+
+#container div {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.buttons, #percent {
+    width: 100%;
+    padding: 8px;
+    margin: 3px;
+    font-size: 20px;
+}
+
+.numbers, #dot, #clearEntry, #clear, #equal {
+    font-weight: bold;
+    width: 100%;
+    padding: 8px;
+    margin: 3px;
+    font-size: 20px;
+}
