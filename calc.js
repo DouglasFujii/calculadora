@@ -33,7 +33,6 @@ function positiveNegative() {
     } else {
         string = inputResult.value * -1;
     }
-
     inputResult.value = Number(string)
 }
 
