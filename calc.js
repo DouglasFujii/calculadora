@@ -26,7 +26,14 @@ function plus(value1, value2) {
     return value1 + value2;
 }
 
-function positiveNegative(event) {
-    console.log(event.target.textContent);
+function positiveNegative() {
+    let string = '';
+    if (inputResult.value > 0) {
+        string = "-" + inputResult.value
+    } else {
+        string = inputResult.value * -1;
+    }
+
+    inputResult.value = Number(string)
 }
 

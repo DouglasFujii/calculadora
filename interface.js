@@ -16,8 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById("dot").addEventListener('click', insertDot);
     document.getElementById("equal").addEventListener('click', calculate);
     document.getElementById("percent").addEventListener('click', percent);
-
-
+    document.getElementById("positiveNegative").addEventListener('click', positiveNegative);
 })
 
 const inputResult = document.getElementById("result");
@@ -51,9 +50,6 @@ function clickOperator(event) {
     
     assignOperator(operator)
     sub = true;
-
-    console.log(calc);
-
 }
 
 function calculate() {
