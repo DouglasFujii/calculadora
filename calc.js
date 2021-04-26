@@ -1,8 +1,8 @@
 
 function percent() {
-   const result = (inputResult.value * 100) / calc.saveValue;
+   const result = (inputResult.value * calc.saveValue) / 100;
 
-   console.log(result)
+   inputResult.value = result;
 }
 
 
